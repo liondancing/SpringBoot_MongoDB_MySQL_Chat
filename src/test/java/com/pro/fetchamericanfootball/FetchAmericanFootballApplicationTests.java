@@ -1,10 +1,10 @@
-package com.ctrenka.spring_mongodb_mysql_auth;
+package com.pro.fetchamericanfootball;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringMongoDbMySqlAuthApplicationTests {
+class FetchAmericanFootballApplicationTests {
 
 	@Test
 	void contextLoads() {

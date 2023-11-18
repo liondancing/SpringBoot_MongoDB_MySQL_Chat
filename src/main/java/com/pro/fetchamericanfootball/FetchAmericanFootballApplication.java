@@ -1,13 +1,12 @@
-package com.ctrenka.spring_mongodb_mysql_auth;
+package com.pro.fetchamericanfootball;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringMongoDbMySqlAuthApplication {
+public class FetchAmericanFootballApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringMongoDbMySqlAuthApplication.class, args);
+		SpringApplication.run(FetchAmericanFootballApplication.class, "--server.port=8081");
 	}
-
 }
